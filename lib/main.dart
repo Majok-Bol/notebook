@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title:Text('Demo app')),
+        appBar: AppBar(title:Text('Demo app'),centerTitle: true,),
         body: Center(child: Text('welcome to Dart and Flutter'),
       ),
     ),
