@@ -18,14 +18,14 @@ class MyApp extends StatelessWidget{
                 keyboardType: TextInputType.multiline,
                 maxLines: null,
                 decoration: InputDecoration(
-                  border: OutlineInputBorder(),
+                  border: OutlineInputBorder(borderRadius:BorderRadius.circular(20),borderSide: BorderSide.none),
                   hintText: 'Write your notes here ',
-                  fillColor: Colors.white54,
+                  fillColor: Colors.white38,
                   filled: true,
 
                 ),
               )),
-              ElevatedButton(onPressed: null, child: Text('Save notes',style:TextStyle(color: Colors.redAccent,fontSize: 15),))
+              ElevatedButton(onPressed: null, child: Text('Save notes',style:TextStyle(color: Colors.red,fontSize: 15),))
 
                 ],
           ),
