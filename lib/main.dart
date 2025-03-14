@@ -20,11 +20,12 @@ class MyApp extends StatelessWidget{
                 decoration: InputDecoration(
                   border: OutlineInputBorder(),
                   hintText: 'Write your notes here ',
+                  fillColor: Colors.white54,
+                  filled: true,
 
                 ),
               )),
-              // SizedBox(height: 10,),
-              ElevatedButton(onPressed: null, child: Text('Save notes',style:TextStyle(color: Colors.redAccent),))
+              ElevatedButton(onPressed: null, child: Text('Save notes',style:TextStyle(color: Colors.redAccent,fontSize: 15),))
 
                 ],
           ),
